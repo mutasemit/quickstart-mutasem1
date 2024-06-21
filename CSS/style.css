@@ -1,0 +1,548 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+  }
+
+  
+ 
+  header {
+    height: 100vh;
+    background-image: url(../imges/hero-bg-light.webp);
+    background-position: center center;
+    background-size: cover;
+    padding: 30px 0;
+    position: relative;
+
+    
+  }
+
+  
+   /* stert header*/
+
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  /* stert Navber */
+  .logor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logor h1 {
+    font-size: 30px;
+    color: #3e5055;
+  }
+  .logor img {
+    max-height: 38px;
+    margin-right: 8px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .logo ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo ul li a {
+    padding: 18px 15px;
+    font-size: 17px;
+    color: #313336;
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+  }
+
+  .logo ul li a:hover{
+    color: #77b6ca;
+  }
+
+  #home {
+    color:#77b6ca;
+  }
+  /* End Navber */
+
+
+
+  .logo .bo {
+    background-color: #3e90aa;
+    color: white;
+    font-size: 14px;
+    padding: 8px 25px;
+    margin: 0 7px;
+    border-radius: 50px;
+  }
+
+  header::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.795);
+ 
+  }
+
+  header * {
+    z-index: 10;
+  }
+
+  /* Main page*/
+
+.sc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(247, 247, 247, 0.788); */
+    height: 100%;
+  }
+  .sc .about{
+    background-color: #3e90aa;
+    color: white;
+    font-size: 14px;
+    padding: 10px 28px;
+    letter-spacing: 1px; 
+    margin: 0 7px;
+    border-radius: 40px;
+  }
+  .sc h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color:  #3e5055;
+  }
+
+  .sc p {
+    font-size: 20px;
+    margin: 6px 10px 30px 30px;
+    color: #5c6164  ;
+    opacity: 1;
+  }
+
+  .sc .bot .container {
+    color: rgb(255, 255, 255);
+    background-color: #388da8;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 28px;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    box-shadow: 0 8px 28px color-mix(in srgb, var(--accent-color), transparent 80%);
+  }
+
+  .sc .bot .watch {
+    font-size: 16px;
+    margin-left: 25px;
+    font-weight: 800;
+    color: #282a2c;
+  }
+
+  
+
+  
+  .sc h1 span {
+    color:#388da8;
+  }
+
+  .sc img {
+    width: 31%;
+    
+  }
+  /* END HOME PAGE */
+
+
+
+
+
+  /* Stert  sectionone */
+ .sc2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: color-mix(in srgb, #388da8, transparent 94%);
+  padding: 40px 0;
+ }
+
+
+
+
+.About {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  max-width: 1200px;
+  margin: 100px auto;
+}
+
+.container {
+  max-width: 50%;
+  margin-top: 20px;
+}
+
+.container h3 {
+  color: #3e5055;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.container  p {
+  color: #3d4348;
+  font-style: italic;
+  font-size: 16px;
+  margin-bottom: 20px;
+
+}
+.container .on p {
+  color: #3d4348da;
+  font-style: initial;
+}
+
+
+.container #one p {
+  color: #3d4348;
+  font-style: unset;
+}
+
+.container ul {
+  color: #3d4348;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.container ul li {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.container ul li::before {
+  content: "✔";
+  color: #007BFF;
+  margin-right: 10px;
+}
+
+.read-more {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #388da8;
+  color: white;
+  letter-spacing: 1px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+
+
+.image {
+  display: flex;
+  gap: 43px;
+  max-width: 45%;
+}
+
+.img1 {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.img1 img {
+  width: 110%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+/*end About*/
+
+/*Stert brand*/
+.brand {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  max-width: 1200px;
+  margin:  100px auto;
+}
+
+.brand img{
+  max-width: 100px;
+  height: auto;
+  filter: grayscale(100%);
+  opacity: 0.6;
+}
+
+.brand img:hover{
+  opacity: 1;
+  filter: grayscale(0%);
+}
+/*End brand*/
+
+
+/*Stert Features*/
+.Features{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.Features .containerf .title {
+  text-align: center;
+  margin-bottom: 4rem;
+  
+}
+
+.Features .title h2 {
+  font-size: 32px;
+  color: #3e5055;
+  margin-top: 0px;
+}
+
+.Features .title p {
+  color: #3d4348;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+
+
+ #box {
+  background-color: #EFF6F8;
+}
+
+ .box {
+  width: 500px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.box h4 {
+  color: #3e5055;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.box p {
+  color: #313336;
+  font-size: 15px;
+}
+
+.Features .is {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Features .is img {
+  max-width: 45%; 
+  max-height: 40%;
+  border-radius: 15px;
+}
+
+
+
+.Features2{
+  max-width: 1200px;
+  margin: 90px auto;
+  
+}
+
+.Features2 img {
+  height: auto;
+  width: 48%;
+  border-radius: 15px;
+}
+.text {
+  width: 528px;
+  background-color: #EFF6F8;
+  padding: 28px;
+  border-radius: 15px;
+}
+
+.text h3 {
+  font-size: 26px;
+  color: #3e5055;
+  margin: 0 0 15px;
+}
+
+.text p {
+  font-size: 16px;
+  color: #a6aaac;
+  margin: 0 0 16px;
+}
+
+
+.text a {
+ background-color: #388da8;
+ padding: 6px 36px;
+ border-radius: 6px;
+ color: #ffffff;
+ font-size: 16px;
+ font-weight: 700;
+ margin-top: 10px;
+}
+
+
+.box2{
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.boxg {
+   max-width: 1200px;
+   margin: 0 auto;
+   margin-bottom: 90px;
+}
+
+.Features3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 uto;
+}
+
+
+.Features3 .boxg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
+
+.Features3 .boxg img {
+  height: auto;
+  width: 48%;
+  border-radius: 15px;
+}
+
+
+.textbox {
+  width: 500px;
+  height: auto;
+  background-color: #EFF6F8;
+  padding: 30px;
+  border-radius: 15px;
+}
+.textbox h3 {
+  font-size: 26px;
+  color: #3e5055;
+  margin: 0 0 15px;
+}
+
+.textbox p {
+  font-size: 16px;
+  color: #a6aaac;
+  margin: 0 0 10px;
+}
+
+.textbox a {
+ background-color: #388da8;
+ padding: 6px 36px;
+ border-radius: 6px;
+ color: #ffffff;
+ font-size: 16px;
+ font-weight: 700;
+}
+.textbox ul{
+  padding-bottom: 10px;
+}
+.textbox ul li{
+   color: #a6aaac;
+   font-size: 16px;
+   margin:18px 0;
+}
+/*End Features*/
+
+/*Start Services*/
+
+.Services{
+  width: 100%;
+  height: auto;
+  background-color: #F9FBFC; 
+}
+
+.weid{
+  max-width: 1200px;
+  margin: auto;
+
+}
+
+.Services  .title {
+  padding: 20px; 
+  text-align: center;
+  padding: 30px;
+}
+
+.Services .title h2 {
+  font-size: 32px;
+  color: #3e5055;
+  margin-top: 0px;
+}
+
+.Services .title p {
+  color: #3d4348;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.service{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.service .box {
+  border: 1px solid #e0e0e0; 
+  border-radius: 8px;        
+  padding: 30px;
+  margin-bottom: 40px;
+  /* flex: 1 1 calc(33.333% - 16px);*/
+  width: 560px;
+  background-color: white;   
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+.service .box h3{
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.service .box p{
+  font-size: 14px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  color: #666;
+}
+
+.service .box a{
+  color: #1a73e8;
+}
+
+/*End Services*/
